@@ -1,0 +1,31 @@
+{
+  "name": "ssr-react",
+  "version": "1.0.0",
+  "description": "ssr-react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "node_modules/.bin/webpack",
+    "firebase": "node_modules/.bin/firebase init hosting"
+  },
+  "author": "jafar pahrudin",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.4",
+    "firebase-admin": "^8.12.1",
+    "firebase-functions": "^3.7.0",
+    "firebase-tools": "^8.4.2",
+    "webpack": "^3.5.5"
+  }
+}
