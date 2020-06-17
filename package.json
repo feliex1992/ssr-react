@@ -4,9 +4,8 @@
   "description": "ssr-react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "node_modules/.bin/webpack",
-    "firebase": "node_modules/.bin/firebase init hosting"
+    "babel": "node_modules/.bin/babel src -d functions/src && babel index.js -d functions"
   },
   "author": "jafar pahrudin",
   "license": "MIT",
